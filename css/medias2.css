@@ -1,6 +1,6 @@
 @media (min-width: 601px){
   #second_principal_information{
-    max-width: 500px;
+    max-width: 100%;
   }
 }
 
@@ -48,33 +48,6 @@
   #title_name_seconday_information{
     font-size: 40px;
     color: #FFDE7D;
-  }
-
-  header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px 10px;
-    background-color: #14181e;
-    margin-bottom: 40px;
-  }
-
-  header h5{
-    font-size: 20px;
-  }
-
-  #nav_links li{
-    display: inline-block;
-    padding: 0px 20px;
-  }
-
-  #nav_links li a{
-    transition: all 0.3s ease 0s;
-    color: white;
-  }
-
-  #nav_links li a:hover{
-    color: #0088a9;
   }
 
   #about_me{
@@ -148,14 +121,10 @@
     cursor: pointer;
   }
 
-  
+  .date_post{
+    font-size: small;
+  }
 }
-/*  */
-/* @media (max-width: 910px){ */
-/*   hr{ */
-/*     display: none; */
-/*   } */
-/* } */
 
 @media (min-width: 910px){
   #pfp_secondary_information{
@@ -166,7 +135,7 @@
   }
 
   #about_me_second_information{
-    width: 450px;
+    width: 650px;
     font-size: 20px;
   }
 

@@ -8,14 +8,15 @@
     <title>nicolas portafolio</title>
   </head>
   <body>
-    <header>
+    <div id="navbar">
       <h5>Nicolas Lopez</h5>
       <ul id="nav_links">
         <li><a href="#">📋 Posts</a></li>
         <li><a href="#">📦 Projects</a></li>
         <li><a href="#">💼 About me</a></li>
       </ul>
-    </header>
+    </div>
+    <div id="helping_scroll"></div>
     <div id="god">
       <div id="grand_father">
       <div id="principal_information">
@@ -74,16 +75,44 @@
         <hr>
         <span class="posts">
           <a href="https://github.com/l9dson-wq/Web-Programming-Final-Project">Building a posts and share web with ReactJS and FireBase.</a>
-          <p>2022</p>
+          <p class="date_post">april 20</p>
+        </span>
+        <span class="posts">
+          <a href="https://github.com/Zepl0/TodosApp-JavaSscript">Basic To-Do app with JS.</a>
+          <p class="date_post">March 03</p>
+        </span>
+      </div>
+      <div class="posts_realized">
+        <h5>Linux</h5>
+        <hr>
+        <span class="posts">
+          <a href="https://github.com/Zepl0/LINUX-WM">My linux envorement and some of my configurations</a>
+          <p class="date_post">May 15</p>
         </span>
       </div>
       <div class="posts_about_projects">
-        <h5>Posts about personal projects:</h5>
-        <hr size="" width="" color="">  
-        <p>Nothing yet :)</p>
+        <h5>Technologies:</h5>
+        <hr size="" width="" color=""
+        <div id="tech_name">
+          <a href="https://reactjs.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/react-native.png"/> </a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://img.icons8.com/color/48/000000/javascript.png"/> </a>
+          <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a> 
+          <a href="https://getbootstrap.com" target="_blank"> <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/> </a> 
+          <a style="padding-right:8px;" href="https://nodejs.org" target="_blank"> <img src="https://img.icons8.com/color/48/000000/nodejs.png"/> </a> 
+          <a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png"/> </a> 
+        </div>
       </div>
     </div>
     </div>
+    <footer>
+      <div id="footer_right_side">
+        <p id="footer_name">Made by Nicolas Lopez</p>
+        <p><a href="https://www.youtube.com/channel/UCT-bdCtgVHb1XSlHILX_DCQ" target="_blank">💻 Youtube</a></p>
+        <p><a href="https://github.com/Zepl0">⚡ GitHub</a></p>
+        <p><a href="https://archlinux.org/">❤️ Arch lover :)</a></p>
+      </div>
+    </footer>
     <script src="js/index.js" charset="utf-8"></script>
+    <script src="js/navbar.js" charset="utf-8"></script>
   </body>
 </html>
